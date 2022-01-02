@@ -23,4 +23,4 @@ L'objectif de ce TP est de créer un classifieur probabiliste relationnel (voir 
     e. coder la boucle permettant la mise à jour des probabilités dans `X` (indication : ```X[i] = T[i] @ X```). Bien penser à __ne pas__ mettre à jour les probabilités des noeuds du training set.
 
     f. retourner un mapping node->country prédisant le pays pour chaque utilisateur
-3. Evaluer la qualité de la prédiction en calculant la proportion des labels correctement attribués aux noeuds n'appartenant pas au training set
+3. Appliquer le classifier sur le graphe Twitter. Evaluer la qualité de la prédiction en calculant la proportion des labels correctement attribués aux noeuds n'appartenant pas au training set
